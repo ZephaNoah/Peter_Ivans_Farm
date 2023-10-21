@@ -1,0 +1,42 @@
+<resources>
+    <string name="app_name">PeterIvan\'sFarm</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <!-- Strings related to login -->
+    <string name="prompt_email">Email</string>
+    <string name="prompt_password">Password</string>
+    <string name="action_sign_in">Sign in or register</string>
+    <string name="action_sign_in_short">Sign in</string>
+    <string name="welcome">"Welcome!"</string>
+    <string name="invalid_username">Not a valid username</string>
+    <string name="invalid_password">Password must be >5 characters</string>
+    <string name="login_failed">"Login failed"</string>
+    <string name="animal_name">the name of the animal</string>
+    <string name="animal_description">a brief detail about the animal</string>
+    <string name="phoneNumber">enter your phone number</string>
+    <string name="password">Type your password here</string>
+    <string name="Purchases">purchases made at the farm</string>
+    <string name="Sales">sale made at the farm</string>
+    <string name="livestock_information">information about the livestock at the farm</string>
+    <string name="next">nxt</string>
+    <string name="staff">staff_platform</string>
+    <string name="manager_platform">manager\'s platform</string>
+    <string name="forward">continue</string>
+    <string name="view_animals">view farm animals</string>
+    <string name="farmEmployees">farm employees</string>
+    <string name="performedSales">farm sales</string>
+    <string name="purchasedProducts">purchases</string>
+    <string name="next1">forward\n</string>
+    <string name="registerStaff">register new staff</string>
+    <string name="viewFarmAnimals">View Farm Animals</string>
+    <string name="viewStaff">View Farm Workers</string>
+    <string name="viewPerformedSales">Sales\n</string>
+    <string name="viewAnimals">Livestock</string>
+    <string name="viewWorkers">Workers</string>
+    <string name="products">purchases</string>
+    <string name="purchases">purchase</string>
+    <string name="recordPurchaseMade">Record Purchase Here</string>
+    <string name="recordSaleMade">Record Sales Here</string>
+    <string name="animalDescription">Record Animal Description Here</string>
+    <string name="SignIn">SIGNIN</string>
+</resources>
