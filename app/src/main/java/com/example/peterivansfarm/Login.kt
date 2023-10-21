@@ -1,6 +1,8 @@
 package com.example.peterivansfarm
 
+import android.app.AlertDialog
 import android.os.Bundle
+import android.os.Message
 import androidx.fragment.app.Fragment
 import android.view.LayoutInflater
 import android.view.View
@@ -35,6 +37,28 @@ class Login : Fragment() {
 
     override fun onViewCreated(view: View, savedInstanceState: Bundle?) {
         super.onViewCreated(view, savedInstanceState)
+
+        with(binding){
+           signin.setOnClickListener{
+               when {
+                   editTextPhone.text.isEmpty() -> {
+                       showDialogue(title = "invalid", "enter phone number")
+                   }
+                   editTextTextPassword.text.isEmpty() -> {
+                       showDialogue(title = "invalid", "enter password")
+                   }
+                   else -> {}
+
+               }
+           }
+        }
+
+    }
+
+    fun showDialogue (title:String, message: String) {
+        val alert = androidx.appcompat.app.AlertDialog.Builder(requireContext()).setTitle(title).setMessage(message)
+        alert.create()
+        alert.show()
     }
 
     override fun onDestroyView() {
